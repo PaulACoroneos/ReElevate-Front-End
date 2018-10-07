@@ -1,0 +1,13 @@
+{
+  "requireCamelCaseOrUpperCaseIdentifiers": true,
+  "requireCapitalizedConstructors": true,
+  "requireParenthesesAroundIIFE": true,
+  "validateQuoteMarks": "'",
+  "excludeFiles": [
+    "./app/scripts/controllers/homeController.js",
+    "./app/scripts/controllers/volunteerCtrl.js",
+    "./app/scripts/controllers/volunteerList.js",
+    "./app/scripts/controllers/about.js",
+    "./app/scripts/controllers/activeEvents.js"
+  ]
+}

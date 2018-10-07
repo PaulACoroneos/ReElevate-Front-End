@@ -1,0 +1,26 @@
+<div style="margin-top: 50px" class="row justify-content-center text-center">
+  <div class="col-md-3 m-2" ng-repeat="vol in volList | filter:searchVol">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body" style="    background-color: cornsilk;">
+        <h5 class="card-title">{{vol.skill}}</h5>
+        <p class="card-text">{{vol.fname}} {{vol.lname}}</p>
+        <!--<p class="card-text">+1 {{vol.phoneNumber}}</p>-->
+        <a class="btn btn-info" style="background-color: khaki;border: khaki;" class="btn">Contact volunteer</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- STICKY FOOTER-->
+<!-- <div class="footer">
+    <div class="container">
+        <div class="text-muted text-center">UTD2018 Hack for humanity team 2</div>
+    </div>
+</div> -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../javascript/script.js"></script>
